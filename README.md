@@ -20,3 +20,5 @@ npm install
 node server.js
 
 This will connect with mongo db.
+
+The CALLBACK_URL= http://localhost:8080/auth/google/callback is used for google login. After successfully connect to mondo db server, run the callback url to sign in with google apis.
